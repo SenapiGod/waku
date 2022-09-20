@@ -46,7 +46,21 @@ IMG_START = START_MEDIA.split(".")
 start_id = IMG_START[-1]
 
 PM_START_TEXT = f"""
-\nI am *{bot_name}* , a group management bot based on the anime *{ANIME_NAME}*![ ]({START_MEDIA})
+Konichiwa `{}`.
+
+*Anya An Anime Based Bot Working Under* [999 Gang 亗](https://t.me/Ft999_eXe)
+
+┏━━━━━━━━━━━━━━━━━━━━
+
+× *Working since:* `{}`
+
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+× `{}` *Teammates, Across* `{}` *Chat groups.*
+
+┗━━━━━━━━━━━━━━━━━━━━
+
+*Try The /help Button Below To Know My Abilities!*group management bot based on the anime *{ANIME_NAME}*![ ]({START_MEDIA})
 
 *Click on the Commands Button below to go through my commands.*
 """
@@ -57,15 +71,15 @@ Click on the button bellow to get description about specifics command."""
 buttons = [
     [
         InlineKeyboardButton(
-            text=f" Add {bot_name} to your Group", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text=f" ❌Add {bot_name} to your Group❌", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="❓About", callback_data="Shikimori_"),
-        InlineKeyboardButton(text=" 💬Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="About", callback_data="Shikimori_"),
+        InlineKeyboardButton(text=" Commands", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🚨Support Grp", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="❗Updates", url=f"https://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="Support Grp", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Updates", url=f"https://t.me/{UPDATE_CHANNEL}"),
    
     ], 
 ]
