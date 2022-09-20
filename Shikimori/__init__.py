@@ -266,7 +266,7 @@ finally:
 
 
 from Shikimori.modules.sql import SESSION
-
+TOKEN = BOT_TOKEN
 defaults = tg.Defaults(run_async=True)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
